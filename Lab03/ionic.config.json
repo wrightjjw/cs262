@@ -1,5 +1,7 @@
 {
   "name": "Lab03",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
