@@ -1,0 +1,25 @@
+Demographics
+	Junior
+	BCS
+	112 grade: A
+	212 grade: C-
+
+Technical
+	I've worked with Java, but not on any of the other listed topics.
+	For Java, I've worked on my own Swing desktop app.
+
+	I have minimal experience with Slack, using it for communication on a project I never actually did any work on.
+	I've used Git with Github and Gitlab to keep track of my own projects, and for a larger team project a few years ago.
+
+	I have an LG G7 running Android 8.0.0
+
+	I don't really care what project to work on. I've done a few projects of my own, and I'm interested in trying to work on someone else's idea for once, since that's likely what I'll end up doing professionally. If I had to pick a project of my own, I'd be interested in making the tactable app from my suggestion in this lab.
+
+Personality
+	O - 56
+	C - 44
+	E - 37.5
+	A - 69
+	N - 15
+
+	I'd definitely be interested in working with Collin and/or Ian Lilienthal, Catherine DeJaeger, Annika Johnson, and Nate Walter.
