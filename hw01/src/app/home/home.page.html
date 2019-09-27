@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Calculator
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+
+    <ion-item>
+      <ion-label>Value 1</ion-label>
+      <ion-input type = "number" [(ngModel)] = "n1"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Value 2</ion-label>
+      <ion-input type = "number" [(ngModel)] = "n2"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Result: <span class = "solution">{{solution}}</span></ion-label>
+    </ion-item>
+  
+    <ion-button shape="round" (click) = "add()">+</ion-button>
+    <ion-button shape="round" (click) = "subtract()">-</ion-button>
+    <ion-button shape="round" (click) = "multiply()">×</ion-button>
+    <ion-button shape="round" (click) = "divide()">÷</ion-button>
+  </div>
+</ion-content>
