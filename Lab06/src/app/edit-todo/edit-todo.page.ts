@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Todo } from '../interfaces/todo'
 
 @Component({
   selector: 'app-edit-todo',
@@ -7,7 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EditTodoPage implements OnInit {
 
-  constructor() { }
+  private todo: Todo;
+
+  constructor() {
+    this.todo = {
+      id: 0,
+      title: '',
+      description: ''
+    }
+  }
 
   ngOnInit() {
   }
