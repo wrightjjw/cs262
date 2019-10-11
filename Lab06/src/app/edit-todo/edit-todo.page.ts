@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Todo } from '../interfaces/todo'
+import { ActivatedRoute } from '@angular/router';
+import { Todo } from '../interfaces/todo';
 
 @Component({
   selector: 'app-edit-todo',
@@ -10,7 +11,7 @@ export class EditTodoPage implements OnInit {
 
   private todo: Todo;
 
-  constructor() {
+  constructor(private route: ActivatedRoute) {
     this.todo = {
       id: 0,
       title: '',
@@ -19,6 +20,8 @@ export class EditTodoPage implements OnInit {
   }
 
   ngOnInit() {
+    let id = this.route.snapshot.paramMap.get('id');
+    console.log(id);
   }
 
 }
