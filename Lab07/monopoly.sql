@@ -30,7 +30,7 @@ CREATE TABLE PlayerGame (
 
 CREATE TABLE Game(
   ID integer,
-  startDate text
+  startDate timestamp
 );
 
 CREATE TABLE Player (
