@@ -20,6 +20,7 @@ CREATE TABLE Player (
 	ID integer PRIMARY KEY, 
 	emailAddress varchar(50) NOT NULL,
 	name varchar(50),
+	cash integer,
 	location integer
 	);
 
