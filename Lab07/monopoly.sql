@@ -19,7 +19,8 @@ CREATE TABLE Game (
 CREATE TABLE Player (
 	ID integer PRIMARY KEY, 
 	emailAddress varchar(50) NOT NULL,
-	name varchar(50)
+	name varchar(50),
+	location integer
 	);
 
 CREATE TABLE PlayerGame (
@@ -28,16 +29,14 @@ CREATE TABLE PlayerGame (
 	score integer
 	);
 
-CREATE TABLE Game(
-  ID integer,
-  startDate timestamp
-);
+CREATE TABLE Property {
+	ID integer PRIMARY KEY,
+	name text,
+	houses integer,
+	hotels integer,
+	ownerID integer
+}
 
-CREATE TABLE Player (
-  ID integer,
-  email text,
-  pName text
-);
 
 -- Allow users to select data from the tables.
 GRANT SELECT ON Game TO PUBLIC;
